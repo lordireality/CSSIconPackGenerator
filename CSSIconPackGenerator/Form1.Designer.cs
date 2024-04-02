@@ -64,8 +64,8 @@
             this.cssClassTemplate.Name = "cssClassTemplate";
             this.cssClassTemplate.Size = new System.Drawing.Size(672, 147);
             this.cssClassTemplate.TabIndex = 2;
-            this.cssClassTemplate.Text = ".icon-button.{1},.icon-lbutton.{1},\r\n.icon-header.{1}{\r\n    background-image: url" +
-    "(\'../icon-pack/{0}\');\r\n}";
+            this.cssClassTemplate.Text = "/*{0}*/\r\n.icon-button.{1},.icon-lbutton.{1},\r\n.icon-header.{1}{{\r\n    background-" +
+    "image: url(\'../icon-pack/{0}\');\r\n}}";
             // 
             // label1
             // 
@@ -111,8 +111,6 @@
             this.OutPut.ReadOnly = true;
             this.OutPut.Size = new System.Drawing.Size(772, 331);
             this.OutPut.TabIndex = 7;
-            this.OutPut.Text = ".icon-button.{1},.icon-lbutton.{1},\r\n.icon-header.{1}{\r\n    background-image: url" +
-    "(\'../icon-pack/{0}\');\r\n}";
             // 
             // RemoveSolid
             // 
