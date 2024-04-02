@@ -23,7 +23,6 @@ namespace CSSIconPackGenerator
             var path = Path.Text;
             var template = cssClassTemplate.Text;
             OutPut.Text = "";
-            MessageBox.Show(RemoveSolid.CheckState.ToString());
             if(!Directory.Exists(path))
             {
                 MessageBox.Show("Path not found!");
